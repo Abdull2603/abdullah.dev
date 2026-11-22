@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abdullah.dev - Student and front-end developer portfolio">
+  <title>Abdullah.dev | Student Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Go to home">A<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a class="nav-contact" href="#contact">Let's talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Available for opportunities</p>
+        <h1>Hi, I'm <span>Abdullah.</span><br>I build for the web.</h1>
+        <p class="hero-description">A student developer crafting clean, responsive and accessible digital experiences with HTML, CSS and JavaScript.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Developer profile card">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="code-window">
+            <div class="window-bar">
+              <i></i><i></i><i></i>
+              <span>abdullah.js</span>
+            </div>
+            <pre><code><b>const</b> developer = {
+  name: <em>"Abdullah"</em>,
+  role: <em>"Student"</em>,
+  focus: <em>"Front-end"</em>,
+  learning: <em>true</em>
+};</code></pre>
+          </div>
+        </div>
+        <div class="status-card">
+          <span class="status-dot"></span>
+          <div><strong>Student</strong><small>Learning & growing</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p>01 / About</p>
+        <h2>Curious mind.<br><span>Creative builder.</span></h2>
+      </div>
+      <div class="about-copy">
+        <p>I'm Abdullah, a student passionate about turning ideas into fast and meaningful web experiences. I focus on writing semantic code and creating interfaces that feel natural on every screen.</p>
+        <div class="about-stats">
+          <div><strong>01</strong><span>Current focus<br>Front-end</span></div>
+          <div><strong>∞</strong><span>Curiosity to<br>keep learning</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading">
+        <p>02 / Skills</p>
+        <h2>What I work <span>with.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article>
+          <span class="skill-number">01</span>
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>HTML5</h3>
+          <p>Semantic, structured and accessible markup.</p>
+        </article>
+        <article>
+          <span class="skill-number">02</span>
+          <div class="skill-icon">#</div>
+          <h3>CSS3</h3>
+          <p>Responsive layouts with Flexbox and Grid.</p>
+        </article>
+        <article>
+          <span class="skill-number">03</span>
+          <div class="skill-icon">JS</div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation and useful interactions.</p>
+        </article>
+        <article>
+          <span class="skill-number">04</span>
+          <div class="skill-icon">◇</div>
+          <h3>Git & GitHub</h3>
+          <p>Version control and collaborative workflows.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-heading work-heading">
+        <div>
+          <p>03 / Work</p>
+          <h2>Selected <span>projects.</span></h2>
+        </div>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-preview preview-one">
+            <div class="browser">
+              <div class="browser-top"><i></i><i></i><i></i></div>
+              <div class="browser-content">
+                <div class="browser-nav"></div>
+                <div class="browser-title"></div>
+                <div class="browser-button"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <p>Featured / Personal</p>
+            <h3>Developer Portfolio</h3>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview preview-two">
+            <div class="phone">
+              <div class="phone-screen">
+                <div></div><div></div><div></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <p>In progress</p>
+            <h3>Responsive Landing Page</h3>
+            <div class="project-tags"><span>Responsive</span><span>UI Design</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p>Have a project or opportunity?</p>
+      <h2>Let's create something <span>great.</span></h2>
+      <a class="button button-light" href="mailto:abdullah@example.com">Say hello <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo footer-logo" href="#home">A<span>.</span></a>
+    <p>© <span id="year"></span> Abdullah.dev</p>
+    <div class="social-links">
+      <a href="#" aria-label="GitHub">GitHub ↗</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn ↗</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
